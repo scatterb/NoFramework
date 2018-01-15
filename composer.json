@@ -1,0 +1,23 @@
+{
+    "name": "No Framework",
+    "description": "Hello PHP, my old friend",
+    "keywords": ["PHP", "Frameworks"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jussi Ketomäki",
+            "email": "jussi.ketomaki@gmail.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "~2.1",
+        "patricklouys/http": "~1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "NoFramework\\": "src/"
+        }
+    }
+}
