@@ -10,4 +10,5 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'NoFramework\\' => array($baseDir . '/src'),
     'Http\\' => array($vendorDir . '/patricklouys/http/src'),
+    'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
 );
